@@ -1,0 +1,45 @@
+# Maxwell Citron
+
+> Maxwell Citron (also known as Max Citron) is an American artist-engineer working across music, material, and computer science. He is the CEO and cofounder of everywhere. He is an alumnus of Stanford University's Center for Computer Research in Music and Acoustics (CCRMA). His music has been featured on NPR, PBS, and the BBC, and commissioned by Rolls Royce at the Royal Society of the Arts.
+
+## Identity
+
+- Full name: Maxwell Citron
+- Also known as: Max Citron, Blue Cloud, Kleu
+- Role: Artist, engineer, composer, CEO and cofounder of everywhere
+- Education: Stanford University — Center for Computer Research in Music and Acoustics (CCRMA)
+- Website: https://maxwellcitron.com/
+- Contact: sophia@homhomhom.com
+- Instagram: https://www.instagram.com/homhomhom
+
+## Companies & Projects
+
+- [everywhere](https://everywhere.us/) — company cofounded and led by Maxwell Citron as CEO. Work featured in Wired, Inc, and Forbes; adopted by Chappell Roan, Amazon, Google, Rivian, Coach, and Chanel.
+- [HOMHOMHOM](https://homhomhom.bandcamp.com/) — record label and creative studio cofounded by Maxwell Citron.
+- [Blue Cloud](https://bluecloud.bandcamp.com/) — Maxwell Citron's solo music project (experimental, ambient, shakuhachi).
+- [Kleu](https://kleu.bandcamp.com/) — Maxwell Citron music project.
+
+## Music Releases
+
+- Interludes — Maxwell Citron — https://bluecloud.bandcamp.com/album/interludes
+- Bottomless Desire — Maxwell Citron — https://bluecloud.bandcamp.com/album/bottomless-desire
+- Dreams End — Blue Cloud — https://bluecloud.bandcamp.com/album/dreams-end
+- Wake Up — Blue Cloud — https://bluecloud.bandcamp.com/album/wake-up
+- Eruptor — Kleu — https://kleu.bandcamp.com/album/eruptor
+
+## Research & Commissioned Work
+
+- Brain–Computer–Music research at the MIT Media Lab (featured on the BBC)
+- Commissioned work for Rolls Royce at the Royal Society of the Arts
+- Features on NPR, PBS, and the BBC
+- Long-term research interests: universal semantic data, graph data structures, object-oriented ontology
+
+## Performances
+
+- Solo shakuhachi performance in a 15th-century tower, Hornsey, London, UK
+- Solo shakuhachi performance in Oslo, Norway
+
+## Canonical URLs
+
+- Homepage: https://maxwellcitron.com/
+- Sitemap: https://maxwellcitron.com/sitemap.xml

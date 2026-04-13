@@ -32,7 +32,23 @@
 <meta name="twitter:image" content="https://maxwellcitron.com/images/blue-cloud-maxwell-citron-face.png">
 <meta name="twitter:image:alt" content="Portrait of Maxwell Citron">
 
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+
+<!-- Performance: Core Web Vitals preconnect/dns-prefetch -->
+<link rel="preconnect" href="https://bandcamp.com" crossorigin>
+<link rel="preconnect" href="https://player.vimeo.com" crossorigin>
+<link rel="preconnect" href="https://i.vimeocdn.com" crossorigin>
+<link rel="preconnect" href="https://f4.bcbits.com" crossorigin>
+<link rel="dns-prefetch" href="https://bandcamp.com">
+<link rel="dns-prefetch" href="https://player.vimeo.com">
+<link rel="dns-prefetch" href="https://i.vimeocdn.com">
+<link rel="dns-prefetch" href="https://f4.bcbits.com">
+
 <link rel="stylesheet" href="hom.css">
+<link rel="preload" as="image" href="images/blue-cloud-maxwell-citron-face.png" fetchpriority="high">
 <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96">
 <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
 <link rel="shortcut icon" href="/favicon/favicon.ico">
@@ -100,6 +116,151 @@
         "https://kleu.bandcamp.com/",
         "https://everywhere.us/",
         "https://vimeo.com/maxwellcitron"
+      ],
+      "subjectOf": [
+        { "@id": "https://maxwellcitron.com/#album-interludes" },
+        { "@id": "https://maxwellcitron.com/#album-bottomless-desire" },
+        { "@id": "https://maxwellcitron.com/#album-dreams-end" },
+        { "@id": "https://maxwellcitron.com/#album-wake-up" },
+        { "@id": "https://maxwellcitron.com/#album-eruptor" }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "inquiries",
+        "email": "sophia@homhomhom.com",
+        "availableLanguage": ["English"]
+      }
+    },
+    {
+      "@type": "MusicGroup",
+      "@id": "https://maxwellcitron.com/#bluecloud",
+      "name": "Blue Cloud",
+      "alternateName": "Blue Cloud (Maxwell Citron)",
+      "url": "https://bluecloud.bandcamp.com/",
+      "genre": ["Experimental", "Ambient", "Shakuhachi"],
+      "member": { "@id": "https://maxwellcitron.com/#person" },
+      "sameAs": ["https://bluecloud.bandcamp.com/"]
+    },
+    {
+      "@type": "MusicGroup",
+      "@id": "https://maxwellcitron.com/#kleu",
+      "name": "Kleu",
+      "url": "https://kleu.bandcamp.com/",
+      "genre": ["Experimental"],
+      "member": { "@id": "https://maxwellcitron.com/#person" },
+      "sameAs": ["https://kleu.bandcamp.com/"]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://maxwellcitron.com/#homhomhom",
+      "name": "HOMHOMHOM",
+      "url": "https://homhomhom.bandcamp.com/",
+      "description": "Record label and creative studio cofounded by Maxwell Citron.",
+      "founder": { "@id": "https://maxwellcitron.com/#person" },
+      "sameAs": [
+        "https://homhomhom.bandcamp.com/",
+        "https://www.instagram.com/homhomhom"
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://maxwellcitron.com/#album-interludes",
+      "name": "Interludes",
+      "byArtist": { "@id": "https://maxwellcitron.com/#person" },
+      "url": "https://bluecloud.bandcamp.com/album/interludes"
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://maxwellcitron.com/#album-bottomless-desire",
+      "name": "Bottomless Desire",
+      "byArtist": { "@id": "https://maxwellcitron.com/#person" },
+      "url": "https://bluecloud.bandcamp.com/album/bottomless-desire"
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://maxwellcitron.com/#album-dreams-end",
+      "name": "Dreams End",
+      "byArtist": { "@id": "https://maxwellcitron.com/#bluecloud" },
+      "url": "https://bluecloud.bandcamp.com/album/dreams-end"
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://maxwellcitron.com/#album-wake-up",
+      "name": "Wake Up",
+      "byArtist": { "@id": "https://maxwellcitron.com/#bluecloud" },
+      "url": "https://bluecloud.bandcamp.com/album/wake-up"
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://maxwellcitron.com/#album-eruptor",
+      "name": "Eruptor",
+      "byArtist": { "@id": "https://maxwellcitron.com/#kleu" },
+      "url": "https://kleu.bandcamp.com/album/eruptor"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://maxwellcitron.com/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Maxwell Citron",
+          "item": "https://maxwellcitron.com/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://maxwellcitron.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Maxwell Citron?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maxwell Citron (also known as Max Citron) is an American artist-engineer working across music, material, and computer science. He is the CEO and cofounder of everywhere, a composer and performer featured on NPR, PBS and the BBC, and an alumnus of Stanford's Center for Computer Research in Music and Acoustics (CCRMA)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is everywhere, the company Max Citron runs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "everywhere is the company Maxwell Citron cofounded and leads as CEO. Its work has been featured in Wired, Inc, and Forbes, and adopted by Chappell Roan, Amazon, Google, Rivian, Coach, and Chanel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where did Maxwell Citron study?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maxwell Citron studied Music Science at Stanford University's Center for Computer Research in Music and Acoustics (CCRMA)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What music projects is Max Citron known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maxwell Citron records and performs under his own name and as Blue Cloud and Kleu. Releases include Interludes, Bottomless Desire, Dreams End, Wake Up, and Eruptor. He is also cofounder of the HOMHOMHOM record label and has performed shakuhachi solo concerts in a 15th-century tower in Hornsey, London and in Oslo, Norway."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What research has Maxwell Citron done?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Maxwell Citron conducted Brain–Computer–Music research at the MIT Media Lab, was commissioned by Rolls Royce at the Royal Society of the Arts, and has long-term research interests in universal semantic data, graph data structures, and object-oriented ontology."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I contact Maxwell Citron?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For inquiries, contact sophia@homhomhom.com or follow @homhomhom on Instagram."
+          }
+        }
       ]
     },
     {
@@ -121,6 +282,7 @@
       "about": { "@id": "https://maxwellcitron.com/#person" },
       "mainEntity": { "@id": "https://maxwellcitron.com/#person" },
       "primaryImageOfPage": "https://maxwellcitron.com/images/blue-cloud-maxwell-citron-face.png",
+      "breadcrumb": { "@id": "https://maxwellcitron.com/#breadcrumbs" },
       "inLanguage": "en-US"
     },
     {
@@ -144,17 +306,16 @@
 <!-- Contact / BIO -->
 <header class="flex-container">
 <div class="bio" style="width:66%">
-<h1 style="display:inline;font-size:inherit;font-weight:bold;margin:0;">Maxwell Citron</h1><br/><br/>
-Artist-engineer working across music, material, and computer science<br/><br/>
+<h1 style="display:inline-block;font-family:'Atkinson Hyperlegible',sans-serif;font-size:1.8em;line-height:1.1;font-weight:400;letter-spacing:-0.01em;margin:0;">Maxwell Citron</h1><br/><br/>
+I am an artist-engineer working across music, material, and computer science.<br/><br/>
 
-I am the CEO and cofounder of <a href="http://everywhere.us/">everywhere</a> where our work has been featured in publications like Wired, Inc, Forbes and adopted by Chappell Roan, Amazon, Google, Rivian, Coach, Chanel, etc. <br/><br/>
+I co-founded and serve as CEO of <a href="http://everywhere.us/">everywhere</a>. Our work has been featured in <i>Wired</i>, <i>Inc</i>, <i>Forbes</i>, and adopted by Chappell Roan, Amazon, Google, Rivian, Coach, Chanel, etc. <br/><br/>
 My life in music includes commissioned work for Rolls Royce at the The Royal Society of the Arts, Brain-Computer-Music research at the MIT Media Lab, and project features on NPR, PBS, and the BBC.<br/><br/>
 
 I have a longterm research interest in universal semantic data, graph datastructures, and object-oriented ontology.<br/><br/>
-
 I studied Music Science at Stanford's Center for Computer Research in Music and Acoustics (CCRMA).<br/><br/>
-For inquiries, please contact: <a href="mailto:sophia@homhomhom.com">sophia@homhomhom.com</a><br/>
-follow <a href="http://instagram.com/homhomhom" rel="me">@homhomhom</a> on instagram
+For inquiries: <a href="mailto:sophia@homhomhom.com">sophia@homhomhom.com</a><br/>
+Follow <a href="http://instagram.com/homhomhom" rel="me">@homhomhom</a> on instagram
 </div>
 <img style="width:33%" src="images/blue-cloud-maxwell-citron-face.png" alt="Portrait of Maxwell Citron">
 </header>
@@ -173,7 +334,8 @@ follow <a href="http://instagram.com/homhomhom" rel="me">@homhomhom</a> on insta
 
 
 <br/><br/>
-<section aria-label="Recent music releases">
+<section aria-label="Recent music releases by Maxwell Citron">
+<h2 style="text-align:left;padding-left:10px;padding-bottom:5px;font-size:1em;font-weight:normal;">Recent Releases — Kleu &amp; Blue Cloud (Maxwell Citron)</h2>
 <div class="flex-container">
 <iframe style="border: 0; width: 49%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=3460206382/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" title="Eruptor by Kleu — Bandcamp player" loading="lazy" seamless><a href="http://kleu.bandcamp.com/album/eruptor">Eruptor by Kleu</a></iframe>
 <iframe style="border: 0; width: 49%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=180860874/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" title="Dreams End by Blue Cloud — Bandcamp player" loading="lazy" seamless><a href="http://bluecloud.bandcamp.com/album/dreams-end">Dreams End by Blue Cloud</a></iframe>
@@ -190,6 +352,7 @@ follow <a href="http://instagram.com/homhomhom" rel="me">@homhomhom</a> on insta
 </div><br/>
 
 
+<h2 style="text-align:left;padding-left:10px;padding-bottom:5px;font-size:1em;font-weight:normal;">Albums by Maxwell Citron — Wake Up, Interludes, Bottomless Desire</h2>
 <iframe style="border: 0; width: 32%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=1587315276/size=large/bgcol=ffffff/linkcol=333333/package=3990132670/transparent=true/" title="Wake Up by Blue Cloud — Bandcamp player" loading="lazy" seamless><a href="http://bluecloud.bandcamp.com/album/wake-up">Wake Up by Blue Cloud</a></iframe>
 <iframe style="border: 0; width: 32%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=3827369418/size=large/bgcol=ffffff/linkcol=333333/transparent=true/" title="Interludes by Maxwell Citron — Bandcamp player" loading="lazy" seamless><a href="http://bluecloud.bandcamp.com/album/interludes">Interludes by Maxwell Citron</a></iframe>
 <iframe style="border: 0; width: 32%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=3190549509/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" title="Bottomless Desire by Maxwell Citron — Bandcamp player" loading="lazy" seamless><a href="http://bluecloud.bandcamp.com/album/bottomless-desire">Bottomless Desire by Maxwell Citron</a></iframe>
@@ -202,15 +365,18 @@ follow <a href="http://instagram.com/homhomhom" rel="me">@homhomhom</a> on insta
 </div><br/>
 <!-- HOMHOMHOM -->
 
+<h2 style="text-align:left;padding-left:10px;padding-bottom:5px;font-size:1em;font-weight:normal;">Collaborations &amp; Production — Grace Leslie, Aleph Eris, Nate Porter</h2>
 <iframe style="border: 0; width: 32%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=1739933683/size=large/bgcol=ffffff/linkcol=333333/transparent=true/" title="Light Sanctuary (Grace & Max) — Bandcamp player" loading="lazy" seamless><a href="http://grace0sounds.bandcamp.com/album/light-sanctuary-grace-max">Light Sanctuary (Grace &amp; Max) by Grace &amp; Max</a></iframe>
 <iframe style="border: 0; width: 32%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=70954713/size=large/bgcol=ffffff/linkcol=333333/transparent=true/" title="The Sleep Whose Dreams Are Life by Aleph Eris — Bandcamp player" loading="lazy" seamless><a href="http://alepheris.bandcamp.com/album/the-sleep-whose-dreams-are-life">The Sleep Whose Dreams Are Life by Aleph Eris</a></iframe>
 <iframe style="border: 0; width: 32%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=1251867805/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" title="Estranged Angel Highway by Nate Porter — Bandcamp player" loading="lazy" seamless><a href="http://nateporter.bandcamp.com/album/estranged-angel-highway">Estranged Angel Highway by Nate Porter</a></iframe>
 <br/>
 <br/>
+<h2 style="text-align:left;padding-left:10px;padding-bottom:5px;font-size:1em;font-weight:normal;">Brain–Computer Music Research — MIT Media Lab, featured on the BBC</h2>
 <a href="https://vimeo.com/134839600"><img style="width:98%" src="images/maxwell-citron-brain-music-bbc.png" alt="Maxwell Citron featured on BBC for brain-computer music research at MIT Media Lab" loading="lazy"></a>
 
 <br/>
 <br/>
+<h2 style="text-align:left;padding-left:10px;padding-bottom:5px;font-size:1em;font-weight:normal;">HOMHOMHOM Record Label &amp; Mount Chicago / Noh Place</h2>
 <a href="http://mountchicago.com/"><img style="width:49%" src="images/mount-chicago-noh-place-farm.jpg" alt="Mount Chicago / Noh Place farm" loading="lazy"></a>
 <a href="http://homhomhom.bandcamp.com/"><img style="width:49%;" src="images/homhomhom-logo.jpg" alt="HOMHOMHOM record label logo" loading="lazy"></a>
 
@@ -221,6 +387,7 @@ follow <a href="http://instagram.com/homhomhom" rel="me">@homhomhom</a> on insta
 </div><br/>
 
 
+<h2 style="text-align:left;padding-left:10px;padding-bottom:5px;font-size:1em;font-weight:normal;">Featured Work — emacs, The Falbonauts, Hannah Mayree</h2>
 <iframe style="border: 0; width: 32%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=3439730283/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" title="Night Blooming Planet by emacs — Bandcamp player" loading="lazy" seamless><a href="http://emacs.bandcamp.com/album/night-blooming-planet">Night Blooming Planet by emacs</a></iframe>
 <iframe style="border: 0; width: 32%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=556185865/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" title="LSD & Heartache by The Falbonauts — Bandcamp player" loading="lazy" seamless><a href="http://thefalbonauts505.bandcamp.com/album/lsd-heartache">LSD &amp; Heartache by The Falbonauts</a></iframe>
 <iframe style="border: 0; width: 32%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=272034818/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" title="Thoughts of the Night by Hannah Mayree — Bandcamp player" loading="lazy" seamless><a href="http://hannahmayree.bandcamp.com/album/thoughts-of-the-night">Thoughts of the Night by Hannah Mayree</a></iframe>
@@ -231,6 +398,7 @@ follow <a href="http://instagram.com/homhomhom" rel="me">@homhomhom</a> on insta
 </div><br/>
 
 
+<h2 style="text-align:left;padding-left:10px;padding-bottom:5px;font-size:1em;font-weight:normal;">More Collaborations — Grace Leslie &amp; Eliya Gwetta</h2>
 <iframe style="border: 0; width: 49%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=836292329/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" title="Vessel No. 1 by Grace Leslie — Bandcamp player" loading="lazy" seamless><a href="http://grace0sounds.bandcamp.com/album/vessel-no-1">Vessel No. 1 by Grace Leslie</a></iframe>
 <iframe style="border: 0; width: 49%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=2773596157/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" title="Pheas by Eliya Gwetta — Bandcamp player" loading="lazy" seamless><a href="http://eliyagwetta.bandcamp.com/album/pheas">Pheas by Eliya Gwetta</a></iframe>
 <br/>
@@ -241,8 +409,12 @@ follow <a href="http://instagram.com/homhomhom" rel="me">@homhomhom</a> on insta
 
 
 
-<iframe style="width:49%" src="https://player.vimeo.com/video/8563764?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" title="Maxwell Citron — Vimeo video" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<iframe style="width:49%" src="https://player.vimeo.com/video/1317956?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" title="Maxwell Citron — Vimeo video" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="flex-container">
+<div style="width:49%;"><div class="video-responsive is-4-3"><iframe src="https://player.vimeo.com/video/8563764?title=0&amp;byline=0&amp;portrait=0" frameborder="0" title="Maxwell Citron — Vimeo video" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+<div style="width:49%;"><div class="video-responsive is-4-3"><iframe src="https://player.vimeo.com/video/1317956?title=0&amp;byline=0&amp;portrait=0" frameborder="0" title="Maxwell Citron — Vimeo video" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+</div>
+
+<br/><br/>
 
 </main>
 
@@ -250,6 +422,7 @@ follow <a href="http://instagram.com/homhomhom" rel="me">@homhomhom</a> on insta
 
 <footer>
 <p>&copy; Maxwell Citron 2026 — all rights reserved.</p>
+<p style="font-size:0.8em;">Maxwell Citron · Max Citron · Blue Cloud · Kleu · HOMHOMHOM · everywhere · Stanford CCRMA · MIT Media Lab</p>
 </footer>
 </div>
 </body>

@@ -1,0 +1,12 @@
+/* TEAM */
+Artist-Engineer: Maxwell Citron
+Also known as: Max Citron
+Site: https://maxwellcitron.com/
+Contact: sophia [at] homhomhom.com
+Instagram: @homhomhom
+
+/* SITE */
+Last update: 2026/04/12
+Language: English
+Doctype: HTML5
+Standards: HTML5, CSS3, Schema.org JSON-LD
